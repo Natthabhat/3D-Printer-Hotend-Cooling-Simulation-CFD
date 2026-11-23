@@ -6,7 +6,6 @@ This project rebuilds the hotend of a Bambu Lab X2D / P2S 3D printer in CAD, sim
 
 ![Labelled parts of the hotend, fan and air duct](diagram/hotend_components_diagram.png)
 
-## In one minute
 
 - **The problem:** The hotend melts plastic at the nozzle (220 °C for PLA), but the part above it must stay cool. If heat creeps up, the plastic softens too early and jams the printer.
 - **The target:** On a 45 °C day inside the printer, keep the top of the heat break and the whole heatsink **at or below 50 °C**.
