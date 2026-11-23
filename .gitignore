@@ -1,0 +1,14 @@
+# Fluent mesh/case/data (1.7 GB, over GitHub's 100 MB file limit) - regenerate with cfd/mesh_wtm.py + run scripts
+*.h5
+# Fluent meshing workflow databases, transcripts and solver logs
+*_workflow_files/
+FM_*/
+*.trn
+*.out
+*.log
+*_log.txt
+cleanup-fluent-*.bat
+server_info*.txt
+__pycache__/
+.claude/
+~$*

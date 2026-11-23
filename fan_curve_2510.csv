@@ -1,0 +1,18 @@
+# Estimated P-Q curve for the Bambu P2S hotend fan (FAF021, 2510, 5 V, 15500 rpm, 2.96 CFM).
+# Source: Pelonis C2510X05BPLBx-5 (2510, 5 V, 15000 rpm, 2.92 CFM, 8.00 mmAq) curve "X", traced from the datasheet,
+# scaled by fan laws to Bambu's published 2.96 CFM (Q x 1.0102, P x 1.0205). Not Bambu's own data.
+# v = mean velocity through the fan annulus (Ø24 opening minus Ø13 hub, A = 3.1966e-4 m2), for the Fluent fan pressure jump.
+Q_CFM,Q_m3s,Q_m3h,v_ms,dP_mmAq,dP_Pa
+0.00,0.000e+00,0.00,0.00,8.17,80.2
+0.25,1.192e-04,0.43,0.37,7.90,77.5
+0.51,2.384e-04,0.86,0.75,6.77,66.4
+0.76,3.576e-04,1.29,1.12,5.42,53.1
+1.01,4.768e-04,1.72,1.49,4.11,40.3
+1.26,5.960e-04,2.15,1.86,2.87,28.1
+1.52,7.152e-04,2.57,2.24,1.90,18.6
+1.77,8.344e-04,3.00,2.61,1.89,18.5
+2.02,9.536e-04,3.43,2.98,1.83,17.9
+2.27,1.073e-03,3.86,3.36,1.64,16.1
+2.53,1.192e-03,4.29,3.73,1.23,12.1
+2.78,1.311e-03,4.72,4.10,0.58,5.7
+2.96,1.397e-03,5.03,4.37,0.00,0.0
